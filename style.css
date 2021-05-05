@@ -110,7 +110,10 @@ margin-bottom: 20px;
 .about-title{
    color: #DE5C8C;
  text-align: right;
+    padding-right: 20%;
+    margin-top: 5%;
 }
+
 .foundation-title{
    color: #F1F1F1;
 }
