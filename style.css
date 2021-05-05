@@ -1,0 +1,246 @@
+.navbar{
+   font-size:0.875em;
+   margin-bottom:0px;
+}
+
+.learnmore{
+    color: #FFF830;
+}
+
+.towers{
+    padding-left: 15px;
+}
+
+.tower-left{
+    margin-bottom: -50px;
+}
+
+
+body{
+      background-color: #1C1C1C; 
+}
+
+.tagline{
+    color: #FFF830;
+    
+}
+
+
+.featured{
+     background-color: #1C1C1C;
+   
+   
+}
+
+.aboutbg{
+    background-color: #1C1C1C;
+    background-image: url(images/wave.png);
+    background-size: cover;
+    
+}
+
+.more-music{
+margin-bottom: 20px;    
+}
+
+.spacey-section{
+    padding-top: 50px;
+}
+
+.spacey-text{
+    color: #F1F1F1;
+}
+
+.ocean-text{
+    color: #F1F1F1;
+}
+
+.moremusichead{
+    color: #59CEBB;
+}
+
+.oceanhead{
+      color: #59CEBB;
+    
+}
+
+.spaceyhead{
+      color: #59CEBB;
+}
+
+.whatsaroundbg{
+    background-color: #403F3F;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.around-title{
+    color: #DE5C8C;
+    padding-bottom: 20px;
+}
+
+.aroundtext{
+    color: #F1F1F1;
+ padding-left: 50px;
+}
+
+.history{
+    background-image: url(images/historybanner_small.png);
+    background-size: cover;
+    text-align: right;
+    padding: 50px;
+}
+
+
+.history-title{
+    color: #F1F1F1;
+}
+
+.history-text{
+    color: #F1F1F1;
+}
+
+.history-texttwo{
+    color: #F1F1F1;
+}
+
+
+/*----ABOUT PAGE START----*/
+
+.about-title{
+   color: #DE5C8C;
+ text-align: right;
+}
+.foundation-title{
+   color: #F1F1F1;
+}
+
+
+.foundation-section{
+    padding-bottom: 70px;
+}
+
+.vision-title{
+   color: #F1F1F1;
+    
+}
+
+.vision-text{
+    color: #F1F1F1;
+    padding-left: 70px;
+}
+
+.vision-img{
+
+}
+
+.venue-title{
+   color: #F1F1F1;
+    text-align: right;
+/*    padding-right: 10px;*/
+}
+
+
+.venue-text{
+   color: #F1F1F1;
+    text-align: right;
+/*    padding-right: 10px;*/
+}
+
+.free-entry{
+   color: #DE5C8C;
+    text-align: right;
+/*    padding-right: 10px;*/
+}
+
+.opening-hours{
+   color: #DE5C8C;
+    text-align: right;
+/*    padding-right: 10px;*/
+}
+
+
+
+
+
+/*----TICKETS PAGE START----*/
+
+.tickettitlediv{
+    padding-top: 50px;
+    color: #59CEBB;
+}
+
+
+.img-tck-right{
+    padding-bottom: 15px;
+}
+
+.tickets-text{
+    margin-top: -35%;
+}
+
+.ticketblue{
+    color: #59CEBB;
+}
+
+.ticketbluetwo{
+    color: #59CEBB;
+    text-align: right;
+}
+
+.tick-t-one{
+    color: #F1F1F1;
+    
+}
+
+.band-img{
+    padding-left: 40%;
+    padding-bottom: 5%;
+}
+
+/*
+.img-tck-right{
+    float: right;
+}
+*/
+
+.tick-t-two{
+    color: #F1F1F1;
+    text-align: right;
+}
+
+.ticketbg{
+background-image: url(images/wave2.png);
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+
+.middle-music-div{
+    margin-right: 10%;
+}
+
+.footer-section{
+     background-color: #D1D1D1;
+}
+
+.footerdiv{
+     background-color: #D1D1D1;
+}
+
+.footer{
+     background-color: #D1D1D1;
+}
+
+.footerone{
+    padding: 15px;
+    background-color: #D1D1D1;
+}
+
+
+.footertwo{
+    text-align: right;
+    color: #F1F1F1;
+    padding-right: 20px;
+    background-color: #D1D1D1;
+}
