@@ -2,7 +2,6 @@
    font-size:0.875em;
    margin-bottom:0px;
 }
-
 .learnmore{
     color: #FFF830;
 }
@@ -36,11 +35,13 @@ body{
     background-color: #1C1C1C;
     background-image: url(images/wave.png);
     background-size: cover;
+    background-position: top;
     
 }
 
 .more-music{
-margin-bottom: 20px;    
+margin-bottom: 5%; 
+    padding-top: 5%;
 }
 
 .spacey-section{
@@ -71,7 +72,6 @@ margin-bottom: 20px;
 .whatsaroundbg{
     background-color: #403F3F;
     padding-bottom: 50px;
-    padding-top: 20px;
 }
 
 .around-title{
@@ -110,10 +110,7 @@ margin-bottom: 20px;
 .about-title{
    color: #DE5C8C;
  text-align: right;
-    padding-right: 20%;
-    margin-top: 5%;
 }
-
 .foundation-title{
    color: #F1F1F1;
 }
@@ -171,57 +168,129 @@ margin-bottom: 20px;
 .tickettitlediv{
     padding-top: 50px;
     color: #59CEBB;
+    margin-top: 2%;
+    font-family: 'Oswald';
+    letter-spacing: .1em;
 }
 
 
 .img-tck-right{
-    padding-bottom: 15px;
+    padding-bottom: 5%;
+    padding-left: 20%;
 }
 
 .tickets-text{
-    margin-top: -35%;
+    padding-top: -70px;
+    margin-top: -25%;
+    font-family: 'Lato', sans-serif;
 }
 
 .ticketblue{
     color: #59CEBB;
+    font-family: 'Lato', sans-serif;
 }
 
 .ticketbluetwo{
     color: #59CEBB;
     text-align: right;
+    font-family: 'Lato', sans-serif;
 }
 
 .tick-t-one{
     color: #F1F1F1;
+    font-family: 'Lato', sans-serif;
     
 }
 
-.band-img{
-    padding-left: 40%;
-    padding-bottom: 5%;
+.giz-title{
+    margin-top: -17%;
 }
 
-/*
-.img-tck-right{
-    float: right;
+.kinggiz-title{
+    font-family: 'Righteous', cursive;
+    color: #F1F1F1;
 }
-*/
+
+.band-summary{
+    margin-left: 40%;
+    font-family: 'Lato', sans-serif;
+}
 
 .tick-t-two{
     color: #F1F1F1;
     text-align: right;
+    font-family: 'Lato', sans-serif;
 }
 
 .ticketbg{
 background-image: url(images/wave2.png);
     background-size: cover;
-    padding-bottom: 2%;
+}
+
+.more-music-two{
+    margin-top: -10%;
+}
+
+.spacey-text-two{
+    color: #F1F1F1;
+    font-family: 'Lato', sans-serif;
+}
+
+.spacey-time{
+    font-family: 'Oswald';
+}
+
+.ocean-time{
+    font-family: 'Oswald';
+     color: #F1F1F1;
+    text-align: right;
+}
+
+.ocean-sold{
+    font-family: 'Oswald';
+    color: #FFF830;
+}
+
+.ocean-text-two{
+    color: #F1F1F1;
+    font-family: 'Lato', sans-serif;
+    margin-top: -20%;
+    margin-right: 25%;
+    letter-spacing: .1em;
+    line-height: 200%;
+   margin-left: -15%;
+}
+
+.spacey-section-two{
+/*    padding-left: 5%;*/
+    padding-right: -5%;
+}
+
+.ocean-section-two{
+/*    padding-left: 7%;*/
+    padding-bottom: -15%;
+}
+
+.space-time-ticket{
+ margin-left: -2%; 
+     padding-top: 7%;
+    text-align: left;
+    color: #F1F1F1;
+}
+
+.ocean-time-ticket{
+padding-top: 8%;
+    margin-right: -2%;
+     padding-bottom: -15%;
+    text-align: right;
 }
 
 
-.middle-music-div{
-    margin-right: 10%;
+.more-music-two{
+margin-bottom: 5%; 
+    padding-top: 5%;
 }
+
 
 .footer-section{
      background-color: #D1D1D1;
@@ -231,15 +300,11 @@ background-image: url(images/wave2.png);
      background-color: #D1D1D1;
 }
 
-.footer{
-     background-color: #D1D1D1;
-}
 
 .footerone{
     padding: 15px;
     background-color: #D1D1D1;
 }
-
 
 .footertwo{
     text-align: right;
