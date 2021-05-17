@@ -250,6 +250,11 @@ body {
 .vision-img{
     margin-left: -10%;
 }
+.vision-img-sm{
+    float: right;
+    display: none;
+    padding-bottom: 5%;
+}
 
 .vision-link{
     color: #FFF830;
@@ -488,21 +493,143 @@ body {
 
 
 
+
+@media screen and (max-width: 991px){
+    
+    
+/*    !!!!ABOUT PAGE!!!!*/
+
+    .about-title {
+    color: #DE5C8C;
+    text-align: right;
+    font-family: Oswald; 
+    font-weight: 600;
+    letter-spacing: .05em;
+    padding-right:20%;
+    margin-top: 5%;
+        padding-top: 70px;
+        
+}
+
+.foundation-title {
+    color: #F1F1F1;
+    font-family: Oswald;
+     letter-spacing: .05em;
+}
+
+
+.foundation-section {
+    padding-bottom: 7%;
+   
+}
+ 
+    .foundation-text-two{
+        padding-left: 15%;
+        padding-top: -5%;
+    }
+    
+    .vision-img{
+        display: none;
+    }
+    
+    .vision-img-sm{
+        display: block;
+        padding-right: 5%;
+    }
+    
+    
+    .vision-title {
+    color: #F1F1F1;
+    padding-left: 5%;
+    font-family: Oswald;
+    letter-spacing: .05em;
+    color: #DE5C8C;
+
+}
+    
+    .vision-text {
+    color: #F1F1F1;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 1.05em;
+    font-family:  font-family: 'Lato', sans-serif;
+    padding-right: -5%;
+    line-height: 150%;
+}
+    
+    .venue-info {
+    padding-right: 30%;
+    letter-spacing:.1em;
+    line-height: 300%;
+    padding-top: -10%;
+    font-family:  font-family: 'Lato', sans-serif;
+}
+
+.venue-title {
+    color: #F1F1F1;
+    text-align: right;
+    font-family: Oswald;
+    padding-top: 
+    /*    padding-right: 10px;*/
+}
+
+.vision-img{
+    margin-left: -10%;
+}
+.vision-img-sm{
+    float: right;
+    padding-bottom: 5%;
+}
+
+.vision-link{
+    color: #FFF830;
+    text-decoration: underline
+}
+
+.venue-info {
+    color: #F1F1F1;
+    text-align: right;
+    padding-right: 25px;
+   margin-top: -50%;
+/*    margin-bottom: -50%;*/
+}
+
+.free-entry {
+    color: #DE5C8C;
+    text-align: right;
+    /*    padding-right: 10px;*/
+}
+
+.opening-hours {
+    color: #DE5C8C;
+    text-align: right;
+}
+
+
+.venue-map{
+    padding-left: 20%;
+    padding-top: 5%;
+
+
+}
+    
+    
+}
 /*--media query--*/
 
 
-/*
-@media screen and (max-width: 1125px){
-        .giz-title {
-    margin-top: -17%;
-        padding-left: -5%;
-        margin-bottom: -10%;
-}
+
+
 
 }
 
 @media screen and (max-width: 1376px){
     
+    
+    .foundation-section {
+    padding-left: 10%;
+   
+}
     .venue-info {
     padding-right: 30%;
     letter-spacing:.1em;
@@ -511,6 +638,10 @@ body {
     font-family:  font-family: 'Lato', sans-serif;
     
 }
+    
+    .vision-text{
+        margin-left: -10%;
+    }
     
     .giz-title {
     margin-top: -17%;
@@ -542,6 +673,18 @@ body {
 }
     
 }
+@media screen and (max-width: 1025px) {
+    .foundation-section{
+        margin-right: -5%;
+        padding-left: 5%;
+    }
+    
+    .vision-text{
+         margin-right: -5%;
+        padding-left: 5%;
+    }
+    
+}
 
 @media screen and (max-width: 1200px) {
     
@@ -563,7 +706,6 @@ body {
     letter-spacing:.1em;
     line-height: 200%;
     padding-top: 7%;
-          margin-top: -50%;
           padding-bottom: 20%;
           margin-right: -10%;
     font-family:  font-family: 'Lato', sans-serif;
@@ -600,104 +742,13 @@ body {
     
     
     
-    .img-tck-right {
-padding-top: 2%;
-    padding-left: 20%;
-}
-    
-    .ticketinfo-section {
-    line-height: 200%;
-    font-size: 1.1 em;
-       margin-top: -5%;
-}
-    
-    .moremusichead {
-    text-align: center;
-
-        padding-top: 5%;
-}
-    
-    .more-music-two {
-    margin-bottom: 5%;
-    padding-top: 10%;
-}
-    
-.ocean-text-two {
-    color: #F1F1F1;
-    font-family: 'Lato', sans-serif;
-    margin-top: 0%;
-    padding-right: 7%;
-    letter-spacing: .1em;
-    line-height: 200%;
-    padding-left: 33%;
-    text-align: left;
 }
 
 
 
-.spacey-text-two {
-    color: #F1F1F1;
-    font-family: 'Lato', sans-serif;
-padding-top: 10%;
-    margin-left: 25%;
-    letter-spacing: .1em;
-    line-height: 200%;
-    margin-right: 18%;
-    text-align: right;
-}
-
-    .spaceyhead{
-        text-align: left;
-        padding-left: 20%;
+@media screen and (max-width: 1470px) {
+    .venue-info{
+        padding-right: 200px;
+/*        margin-right: -10%;*/
     }
-    
-    
-    .oceanhead{
-        text-align: right;
-        padding-right: 20%;
-    }
-    
-    .spacey-time {
-    font-family: 'Oswald';
-
-        margin-top: -41%;
-        padding-left: 7%;
 }
-   
-    
-    .ocean-time {
-    font-family: 'Oswald';
-    color: #F1F1F1;
-    text-align: right;
-        margin-bottom: -18%;
-        padding-top: -200%;
-        margin-top: -50%;
-        padding-right: 7%;
-}
-
-.ocean-sold {
-    font-family: 'Oswald';
-    color: #FFF830;
-    padding-top: 20%;
-    margin-bottom: -50%;
-    padding-right: 7%;
-}
-    
-    .ocean-section-two {
-        padding-left: 45%;
-    padding-bottom: -15%;
-        margin-top: -56.5%;
-        padding-bottom: 
-   
-        
-}
-
-    .spacey-section-two {
-   
-    padding-right:45%;
-        padding-bottom: -20%;
-}
-    
-    
-}
-*/
