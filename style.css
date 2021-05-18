@@ -291,6 +291,13 @@ body {
 
 /*----TICKETS PAGE START----*/
 
+
+
+.featured-section {
+    padding-bottom: 7%;
+   
+}
+
 .tickettitlediv {
     padding-top: 50px;
     color: #59CEBB;
@@ -378,11 +385,9 @@ body {
     border-top-style: dashed;
     border color: #F1F1F1;
     border width: 10px;
-    margin-left: 12px;
-    padding-left: 15px; 
-        float:right;
+ margin-right:5%;
+    float:right;
     margin-top:-70%;
-    margin-right: -4px;
 }
 
 
@@ -390,11 +395,10 @@ body {
     border-top-style: dashed;
     border color: #F1F1F1;
     border width: 10px;
-    margin-left: 12px;
     float: left;
-margin-right: -30%;
     margin-top:75px;
-    padding-right: -15px;
+    margin-left: 120%;
+
     
 }
 
@@ -424,11 +428,12 @@ margin-right: -30%;
     color: #F1F1F1;
     font-family: 'Lato', sans-serif;
     margin-top: -40px;
-    margin-right: 25%;
+    margin-right: 55%;
     letter-spacing: .1em;
     line-height: 200%;
     margin-left: -10%;
-    text-align: right;
+    text-align: left;
+    
 }
 
 
@@ -440,13 +445,28 @@ margin-right: -30%;
     margin-left: 25%;
     letter-spacing: .1em;
     line-height: 200%;
-    margin-right: -15%;
+/*    margin-right: -15%;*/
+    text-align: right;
 }
 
 .spacey-section-two {
     /*    padding-left: 5%;*/
     padding-right: -5%;
 }
+
+.spacey-section-twoa{
+margin-left: 15%;    
+    
+}
+
+
+.ocean-section-twob {
+    margin-right: -15%;
+    padding-bottom: -15%;
+    padding-left: 15%;
+}
+
+
 
 .ocean-section-two {
     /*    padding-left: 7%;*/
@@ -562,18 +582,6 @@ margin-right: -30%;
 }
     
 }
-@media screen and (max-width: 1025px) {
-    .foundation-section{
-        margin-right: -5%;
-        padding-left: 5%;
-    }
-    
-    .vision-text{
-         margin-right: -5%;
-        padding-left: 5%;
-    }
-    
-}
 
 @media screen and (max-width: 1200px) {
     
@@ -655,8 +663,48 @@ margin-right: -30%;
 
 
 
+@media screen and (max-width: 1025px) {
+    
+/*    !!!ABOUT!!!*/
+    .foundation-section{
+        margin-right: -5%;
+        padding-left: 5%;
+    }
+    
+    .vision-text{
+         margin-right: -5%;
+        padding-left: 5%;
+    }
+    
+    
+    
+    
+    
+/*    !!!TICKETS!!!*/
+    
+}
+
+
 
 @media screen and (max-width: 991px){
+    
+    
+    
+    /*    !!!TICKETS!!!*/
+
+    
+    .band-img{
+        padding-bottom: 10px;
+padding-right: 5%;
+        margin-left: 60%;
+    }
+    
+    
+}
+    
+    
+    
+    
     
     
 /*    !!!!ABOUT PAGE!!!!*/
