@@ -264,7 +264,7 @@ body {
 .venue-text {
     color: #F1F1F1;
     text-align: right;
-    /*    padding-right: 10px;*/
+/*        padding-right: 10px;*/
 }
 
 .free-entry {
@@ -593,8 +593,124 @@ margin-left: 15%;
         margin-top: -87%;
     }
     
+    .dotsa{
+        margin-right: -35px;
+    }
+    
+    dotsb{
+        
+    }
+    
+    /*    !!!!ABOUT PAGE!!!!*/
+
+    .about-title {
+    color: #DE5C8C;
+    text-align: right;
+    font-family: Oswald; 
+    font-weight: 600;
+    letter-spacing: .05em;
+    padding-right: 10%;
+    margin-top: 5%;
+        padding-top: 70px;
+        
+}
+
+.foundation-title {
+    color: #F1F1F1;
+    font-family: Oswald;
+     letter-spacing: .05em;
+}
+
+
+.foundation-section {
+    padding-bottom: 7%;
+    padding-right: 5%;
+   
+}
+ 
+    .foundation-text-two{
+        padding-left: 15%;
+        margin-top: -10%;
+    }
+    
+    .vision-img{
+        display: none;
+    }
+    
+    .vision-img-sm{
+        display: block;
+        padding-right: 15%;
+    }
     
     
+    .vision-title {
+        padding-left: 15%;
+
+
+}
+    
+    .vision-text {
+    color: #F1F1F1;
+    padding-left: -5%;
+    padding-right: 20%;
+    font-size: 1.05em;
+    font-family:  font-family: 'Lato', sans-serif;
+    line-height: 150%;
+        margin-left: -5%;
+}
+    
+   
+
+.venue-title {
+    color: #F1F1F1;
+    text-align: right;
+    font-family: Oswald;
+    padding-top: 
+    /*    padding-right: 10px;*/
+}
+
+.vision-img{
+    margin-left: -10%;
+}
+.vision-img-sm{
+    float: right;
+    padding-bottom: 5%;
+}
+
+.vision-link{
+    color: #FFF830;
+    text-decoration: underline
+}
+
+.venue-info {
+    color: #F1F1F1;
+    text-align: right;
+    padding-right:20%;
+   margin-top: -60%;
+margin-left: 30%;
+}
+
+.free-entry {
+    color: #DE5C8C;
+    text-align: right;
+    /*    padding-right: 10px;*/
+}
+
+.opening-hours {
+    color: #DE5C8C;
+    text-align: right;
+}
+
+
+.venue-map{
+    padding-left: 5%;
+    padding-top: 5%;
+
+
+}
+    
+    
+}
 /*    !!!ABOUT!!!*/
     
     .about-title {
@@ -707,118 +823,7 @@ padding-right: 5%;
     
     
     
-/*    !!!!ABOUT PAGE!!!!*/
 
-    .about-title {
-    color: #DE5C8C;
-    text-align: right;
-    font-family: Oswald; 
-    font-weight: 600;
-    letter-spacing: .05em;
-    padding-right: 10%;
-    margin-top: 5%;
-        padding-top: 70px;
-        
-}
-
-.foundation-title {
-    color: #F1F1F1;
-    font-family: Oswald;
-     letter-spacing: .05em;
-}
-
-
-.foundation-section {
-    padding-bottom: 7%;
-    padding-right: 5%;
-   
-}
- 
-    .foundation-text-two{
-        padding-left: 15%;
-        margin-top: -10%;
-    }
-    
-    .vision-img{
-        display: none;
-    }
-    
-    .vision-img-sm{
-        display: block;
-        padding-right: 15%;
-    }
-    
-    
-    .vision-title {
-        padding-left: 15%;
-
-
-}
-    
-    .vision-text {
-    color: #F1F1F1;
-    padding-left: -5%;
-    padding-right: 20%;
-    font-size: 1.05em;
-    font-family:  font-family: 'Lato', sans-serif;
-    line-height: 150%;
-        margin-left: -5%;
-}
-    
-    .venue-info {
-   
-}
-
-.venue-title {
-    color: #F1F1F1;
-    text-align: right;
-    font-family: Oswald;
-    padding-top: 
-    /*    padding-right: 10px;*/
-}
-
-.vision-img{
-    margin-left: -10%;
-}
-.vision-img-sm{
-    float: right;
-    padding-bottom: 5%;
-}
-
-.vision-link{
-    color: #FFF830;
-    text-decoration: underline
-}
-
-.venue-info {
-    color: #F1F1F1;
-    text-align: right;
-    padding-right:20%;
-   margin-top: -60%;
-margin-left: 30%;
-}
-
-.free-entry {
-    color: #DE5C8C;
-    text-align: right;
-    /*    padding-right: 10px;*/
-}
-
-.opening-hours {
-    color: #DE5C8C;
-    text-align: right;
-}
-
-
-.venue-map{
-    padding-left: 5%;
-    padding-top: 5%;
-
-
-}
-    
-    
-}
 
 
 
