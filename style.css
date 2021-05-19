@@ -5,9 +5,28 @@
     font-weight: 600;
 }
 
+.Home{
+   color: #F1F1F1;
+}
+
+.events{
+color: #F1F1F1;
+}
+
+.times{
+    color: #F1F1F1;
+}
+
+.about{
+    color: #F1F1F1;
+}
+
+.contact{
+    color: #F1F1F1;
+}
 
 .logo {
-/*    padding-left: 30%;*/
+margin-bottom: 
 }
 
 .learnmore {
@@ -17,27 +36,58 @@
 .towers {
     padding-left: 15px;
     padding-top: 5%;
+    margin-left: 15%;
+/*    margin-right: 5%*/
+/*
+    width: 150%;
+    height: 150%;
+*/
 }
 
 .tower-left {
     margin-bottom: -50px;
 }
 
+.top-band{
+    margin-right: -60%;
+    margin-left: 10%;
+    padding-bottom: 5%;
+    padding-right: -80%;
+/*
+    width: 150%;
+    height: 150%;
+*/
+}
 
 body {
     background-color: #1C1C1C;
+    
 }
 
 .tagline {
     color: #FFF830;
+    margin-left: -15%;
 
 }
 
-
+.buy-button{
+    color: #1C1C1C;
+}
 .featured {
     background-color: #1C1C1C;
 
 
+}
+
+.buy-link{
+    margin-bottom: -10px;
+    background-image: url(images/ticket-bg.png);
+    background-size: contain;
+    margin-right: 98%;
+    font-family: oswald;
+    padding-top: 2px;
+    padding-left: 10px;
+    margin-left: -15%;
 }
 
 .aboutbg {
@@ -49,6 +99,15 @@ body {
 }
 
 
+.music-comp-index{
+    background-image: url(images/wave.png);
+    background-size: cover;
+    margin-top: -5%;
+    padding-bottom: 5%;
+    background-position:center;
+    padding-top: 15%;
+}
+
 .dots{
     border-top-style: dashed;
     border color: #F1F1F1;
@@ -57,9 +116,51 @@ body {
     padding-right: 
 }
 
+.dots2a{
+margin-left:-160px;
+margin-top:14%;
+color: #F1F1F1;
+padding-right: 35px;
+  
+    
+}
+
+.true-dots2a{
+    border-top-style: dashed;
+border color: #F1F1F1;
+border width:15px;
+    margin-right: 5px;
+    font-family: oswald;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+
+.dots2b{
+margin-right:-13%;
+margin-top:3.5%;
+    margin-left:-1%; 
+    color: #F1F1F1;
+    padding-left: -15px;
+}
+
+
+.true-dots2b{
+    border-top-style: dashed;
+border color: #F1F1F1;
+border width: 10px;
+    text-align: right;
+margin-left: 20px;
+    font-family: Oswald;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+
 .more-music {
     margin-bottom: 5%;
     padding-top: 5%;
+
 }
 
 .spacey-section {
@@ -81,6 +182,8 @@ body {
 .moremusichead {
     color: #59CEBB;
     font-family: Oswald;
+    margin-bottom: -10%;
+        margin-top: 5%;
 }
 
 .oceanhead {
@@ -92,6 +195,8 @@ body {
 .spaceyhead {
     color: #59CEBB;
     font-family: Oswald;
+    text-align: left;
+    padding-left: 35px;
 }
 
 .whatsaroundbg {
@@ -298,6 +403,14 @@ body {
    
 }
 
+.music-comp{
+    padding-left:8%;
+    margin-right: 4%;
+    padding-bottom: 5%;
+    background-image: url(images/wave2.png);
+    background-size: cover;
+}
+
 .tickettitlediv {
     padding-top: 50px;
     color: #59CEBB;
@@ -369,10 +482,6 @@ body {
     text-align: center;
 }
 
-.spacey-text-two {
-    color: #F1F1F1;
-    font-family: 'Lato', sans-serif;
-}
 
 .spacey-section-twoa {
     /* padding-left: 5%; */
@@ -427,11 +536,11 @@ body {
 .ocean-text-two {
     color: #F1F1F1;
     font-family: 'Lato', sans-serif;
-    margin-top: -40px;
-    margin-right: 55%;
+    margin-top: -35px;
+    margin-right: 35%;
     letter-spacing: .1em;
     line-height: 200%;
-    margin-left: -10%;
+/*    margin-left: -20%;*/
     text-align: left;
     
 }
@@ -441,11 +550,11 @@ body {
 .spacey-text-two {
     color: #F1F1F1;
     font-family: 'Lato', sans-serif;
-    margin-top: -10%;
-    margin-left: 25%;
+    margin-top: -35px;
+    margin-left: 20%;
     letter-spacing: .1em;
     line-height: 200%;
-/*    margin-right: -15%;*/
+    margin-right: 15%;
     text-align: right;
 }
 
@@ -458,8 +567,10 @@ body {
 margin-left: 15%;    
     
 }
-
-
+.ocean-sect{
+    
+    padding-left: 7%;
+}
 .ocean-section-twob {
     margin-right: -15%;
     padding-bottom: -15%;
@@ -586,6 +697,67 @@ margin-left: 15%;
 @media screen and (max-width: 1200px) {
     
     
+    
+    
+/*    !!!INDEX!!!*/
+
+    .towers {
+   padding-right: 25%;
+    
+
+}
+
+    
+    
+    
+    .whatsaroundbg {
+    background-color: #403F3F;
+    padding-bottom: 50px;
+    padding-top: 2%;
+}
+
+.around-title {
+    color: #DE5C8C;
+/*    padding-bottom: 20px;*/
+    font-family: Oswald;
+    padding-right: 75%;
+/*    padding-top: 15%;*/
+    margin-top: 5%;
+}
+
+.aroundimg{
+    margin-top: -27%;
+    padding-left: 50%;
+}
+
+.aroundtext {
+    color: #F1F1F1;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05em;
+    padding-bottom: 5%;
+    padding-right: 60%;
+    font-size: 1.1em;
+    line-height: 200%;
+}
+    
+    .learnmore-one{
+        padding-right: 25%;
+        margin-left: -2%;
+/*        margin-bottom: 1;*/
+        padding-left: 10%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 /*    !!!TICKETS!!!*/
     
     .space-time-ticket {
@@ -593,14 +765,44 @@ margin-left: 15%;
         margin-top: -87%;
     }
     
-    .dotsa{
-        margin-right: -35px;
-    }
+  .dots2a{
+margin-left:-74px;
+margin-top:17%;
+color: #F1F1F1;
+padding-right: 25px;
+  
     
-    dotsb{
-        
-    }
-    
+}
+
+.true-dots2a{
+    border-top-style: dashed;
+border color: #F1F1F1;
+border width:15px;
+    margin-right: 5px;
+    font-family: oswald;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+
+.dots2b{
+margin-right:-10%;
+margin-top:3.5%;
+    margin-left:2%; 
+    color: #F1F1F1;
+}
+
+
+.true-dots2b{
+    border-top-style: dashed;
+border color: #F1F1F1;
+border width: 10px;
+    text-align: right;
+margin-left: 15px;
+    font-family: Oswald;
+    padding-top: 10px;
+    padding-right: px;
+}
     /*    !!!!ABOUT PAGE!!!!*/
 
     .about-title {
@@ -804,6 +1006,13 @@ margin-left: 30%;
 
 @media screen and (max-width: 991px){
     
+/*    !!!INDEX!!!*/
+    
+    
+    .buy-link{
+margin-right: -5px;
+}
+    
     
     
     /*    !!!TICKETS!!!*/
@@ -848,6 +1057,50 @@ margin-top: 70%;
 }
 
     
+    
+    
+    .dots2a{
+margin-left:-295px;
+margin-top:14%;
+color: #F1F1F1;
+padding-right: 65px;
+  
+    
+}
+
+.true-dots2a{
+    border-top-style: dashed;
+border color: #F1F1F1;
+border width:15px;
+    margin-right: 5px;
+    font-family: oswald;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: left
+}
+
+
+.dots2b{
+margin-right:-25%;
+margin-top:3.5%;
+    margin-left:-1%; 
+    color: #F1F1F1;
+    padding-left: -10px;
+}
+
+
+.true-dots2b{
+margin-left: 210px;
+    margin-right: -111px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+    
+    
+.ocean-sect{
+margin-right: -40%;
+    }
+    
 }
 
 
@@ -868,5 +1121,109 @@ margin-top: 70%;
             padding-bottom: 150%;
    
 }
+    
+    
+    
+    
+    
+    
+    whatsaroundbg {
+    background-color: #403F3F;
+    padding-bottom: 50px;
+    padding-top: 2%;
+}
+
+.around-title {
+    color: #DE5C8C;
+/*    padding-bottom: 20px;*/
+    font-family: Oswald;
+    padding-right: 50%;
+/*    padding-top: 15%;*/
+    margin-top: 5%;
+}
+
+.aroundimg{
+    margin-top: -40%;
+    margin-left: -25%;
+    float: right;
+    z-index: 0;
+}
+
+.aroundtext {
+    color: #F1F1F1;
+    padding-left: 25%;
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05em;
+    padding-bottom: 25%;
+    padding-right: 1%;
+    font-size: 1.1em;
+    line-height: 200%;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -10%;
+    margin-left: -20%;
+    margin-right: 20%;
+    
+}
+
+.history {
+    background-image: url(images/historybanner_small.png);
+    background-size: cover;
+    text-align: right;
+    padding: 50px;
+    padding-bottom: 7%;
+}
+
+
+.history-title {
+    color: #F1F1F1;
+    font-family: Oswald;
+}
+
+.learnmore-one{
+    font-family:  Oswald;
+    padding-left: 5%;
+    margin-bottom: 15%;
+    margin-top: -3%;
+    color: #FFF830;
+     font-weight: 500;
+    text-decoration: underline;
+     letter-spacing: .1em;
+    position: absolute;
+   
+
+}
+
+.history-text {
+    color: #F1F1F1;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05em;
+   
+}
+
+.history-texttwo {
+      color: #F1F1F1;
+    font-family: 'Lato', sans-serif;
+     font-size: 1.05em;
+    font-weight: 500;
+}
+
+
+.learnmore-two{
+    font-family:  Oswald;
+    padding-left: 75%;
+    padding-bottom: -25%;
+    color: #FFF830;
+     font-weight: 500;
+    text-decoration: underline;
+    letter-spacing: .1em;
+}
+    
+    
+    
+    
+    
+    
     
 }
