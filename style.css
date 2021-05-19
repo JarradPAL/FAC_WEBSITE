@@ -186,6 +186,16 @@ margin-left: 20px;
         margin-top: 5%;
 }
 
+
+.moremusichead-tick {
+    color: #59CEBB;
+    font-family: Oswald;
+/*    margin-bottom: -10%;*/
+        margin-top: 5%;
+    text-align: center;
+}
+
+
 .oceanhead {
     color: #59CEBB;
     font-family: Oswald;
