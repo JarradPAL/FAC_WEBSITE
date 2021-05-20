@@ -67,7 +67,15 @@ body {
 .tagline {
     color: #FFF830;
     margin-left: -15%;
+    font-family: 'Special Elite', cursive;
+    font-size:400%;
+/*    letter-spacing: 600%;*/
 
+}
+
+.tag-sect{
+/*    margin-left: -10%;*/
+    padding-top: 2%;
 }
 
 .buy-button{
@@ -1012,11 +1020,19 @@ margin-left: 30%;
 
 
 
-@media screen and (max-width: 1470px) {
+@media screen and (max-width: 1470px) {'
+    .tagline{
+    font-size: 400%;
+}
     .venue-info{
         padding-right: 200px;
-/*        margin-right: -10%;*/
+
     }
+    
+    
+    
+    
+    
 }
 
 
