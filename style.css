@@ -3,6 +3,26 @@
     margin-bottom: 0px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
+    background-color:#1C1C1C;
+
+}
+
+.navbar-nav{
+    padding-top: 20px;
+}
+
+.nav {
+/*    font-size: 0.875em;*/
+    margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color:  #1C1C1C;
+
+}
+
+.navbar-toggle {
+/*    background-color:  #F1F1F1;*/
+    margin-top: 35px;
 }
 
 .Home{
@@ -25,8 +45,9 @@ color: #F1F1F1;
     color: #F1F1F1;
 }
 
-.logo {
-margin-bottom: 
+.Logo {
+width: 278px;
+    height: auto;
 }
 
 .learnmore {
@@ -362,8 +383,8 @@ border width: 10px;
     font-family: Oswald;
     letter-spacing: .05em;
     color: #DE5C8C;
-    margin-left: 5%;
-    padding-left: 25%;
+    margin-left: 25%;
+    padding-left: 45%;
 
 }
 
@@ -375,7 +396,7 @@ border width: 10px;
     font-family:  font-family: 'Lato', sans-serif;
     padding-right: -5%;
     line-height: 150%;
-    margin-left: 5%;
+    margin-left: 25%;
     margin-right: -5%;
 }
 
@@ -832,8 +853,8 @@ margin-left: 15%;
     }
     
   .dots2a{
-margin-left:-74px;
-margin-top:14%;
+margin-left:-155px;
+margin-top:12%;
 color: #F1F1F1;
 padding-right: 25px;
   
@@ -865,11 +886,11 @@ margin-top:3.5%;
 border color: #F1F1F1;
 border width: 10px;
     text-align: right;
-margin-left: 45px;
+margin-left: 35px;
     font-family: Oswald;
     padding-top: 10px;
     margin-top: 10px;
-    margin-right: -50px;
+    margin-right: -40px;
 }
     /*    !!!!ABOUT PAGE!!!!*/
 
@@ -1265,21 +1286,26 @@ margin-top: 70%;
     }
     
     .dots2a{
-margin-left:-295px;
-/*margin-top:14%;*/
+/*margin-left:-295px;*/
+
 color: #F1F1F1;
 padding-right: 65px;
   
     
 }
 
+    .ocean-sect{
+margin-left: 70px;
+        margin-right:0px;
+        padding-right: 0px;
+    }
+    
 .true-dots2a{
     border-top-style: dashed;
 border color: #F1F1F1;
 border width:15px;
     margin-right: 5px;
-    margin-left: 625px;;
-    margin-top: -290px;
+    margin-top: 0px;
     font-family: oswald;
     padding-top: 10px;
     padding-bottom: 100px;
@@ -1290,13 +1316,13 @@ border width:15px;
     .spacey-text-two{
         padding-right: 90px;
         margin-left: 120px;
-/*        padding-: -25px;*/
+margin-right: -100px;
            
     }
     
     .ocean-text-two{
         margin-left: -250px;
-        margin-right: 160px;
+        margin-right: 200px;
         margin-top: -100px;
         padding-bottom: 20%
     }
@@ -1304,25 +1330,31 @@ border width:15px;
 
     .ocean-all-but-dot{
         margin-top: -70px;
-        padding-left: 90px;
+        padding-left: 0px;
     }
     
     
     .oceanhead{
-        padding-bottom: 50px;
+        padding-bottom: 70px;
         padding-left: 75%;
-        margin-right: -20%;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-top: -25px
     }
 .true-dots2b{
-margin-left: -160px;
+margin-left: 60px;
     margin-right: 0px;
     margin-bottom: -150px;
-    padding-left: 210px;
-    padding-right: 50px;
+    padding-left: 5px;
+    padding-right: 40px;
+    margin-top: -50px;
 }
     
     .dots2b{
-       padding-bottom: 50px
+       padding-bottom: 50px;
+        padding-right: 50px;
+        padding-left: 20px;
+        margin-right: auto;
     }
   
 .ocean-sect{
@@ -1330,6 +1362,50 @@ padding-left:200px;
     padding-top: 100px;
     }
     
+    
+/*    !!!ABOUT!!!*/
+    
+    .about-title{
+        padding-right: 0px;
+    }
+    
+    .foundation-text-two{
+       padding-right: -10%;
+        padding-bottom: 50px;
+    
+        margin-top: -70px;
+    }
+    
+    .vision-title{
+        padding-left: 150px;
+        padding-bottom: 15px;
+    }
+    
+    .vision-text-sect{
+        margin-left: -30px;
+        margin-right:250px;
+        margin-top: 450px;
+        padding-bottom: 50px;
+    }
+    
+    .vision-img-sm{
+        margin-top: -690px;
+        padding-right: 80px;
+        
+    }
+    
+    .venue-info{
+        margin-right: 45px;
+        padding-bottom: 200px;
+        margin-top: -550px;
+    }
+    
+    .venue-map{
+        margin-right: 0px;
+        margin-left: 55px;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
 }
 
 
@@ -1352,7 +1428,9 @@ padding-left:200px;
 }
     
     
-    
+    .ocean-sect{
+        margin-left: auto;
+    }
     
     
     
@@ -1455,4 +1533,316 @@ padding-left:200px;
     
     
     
+}
+
+
+@media screen and (max-width: 376px){
+    
+    .top-band{
+        
+    }
+    
+    .Logo{
+    width: 200px;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .tagline{
+        margin-left: -200px;
+        padding-top:50px;
+    }
+    
+      .buy-link{
+        margin-left: -200px;
+        width: 75px;
+          height: 29px;
+          font-size: 1.8em;
+          padding-left: -5px;
+       
+    }
+    
+    .moremusichead-tick{
+        padding-bottom: 25px;
+    }
+    
+    .moremusic{
+        
+    }
+    
+    .spaceyhead{
+        padding-left: 10px;
+    }
+    
+    .dots2a{
+    margin: 0px;
+        padding-left: 250px;
+        padding-right: 60px;
+        margin-top: -225px;
+        padding-bottom: 150px;
+    }
+    
+    
+    .true-dots2a{
+        margin: 0px;
+        padding: 0px;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    
+    .spacey-text-two{
+    margin-left: 0px;
+        padding-left: 70px;
+        padding-top: 30px;
+        margin-right: 0px;
+        padding-right: 0;
+        text-align: right
+    }
+    
+    .oceanhead{
+        padding-left: 200px;
+        padding-bottom: 20px;
+    }
+    
+    .spacey-ind-img{
+        width: 230px;
+        height: auto;
+    }
+    
+    
+        .dots2b{
+       margin-left: -10px;
+        padding-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 50px;
+            margin-right: 0px;
+            padding-top: 0px;
+    }
+    
+    
+    .true-dots2b{
+        margin: 0px;
+        padding: 0px;
+        padding-left: 0px;
+        padding-top: 5px;
+        padding-right: 100px;
+        text-align: center;
+        margin-bottom: -90px;
+    }
+    
+    
+    .ocean-all-but-dot{
+        margin-left: -
+    }
+    
+    
+    .ocean-ind-img{
+        width: 239px;
+        height: auto;
+        padding-top: 0px;
+        margin-right: -30px;
+    }
+    
+    .ocean-text-two{
+        padding-right: 0px;
+        margin-right: 100px;
+        padding-top: 69px;
+        padding-left: 0px;
+        margin-left: -20px;
+        text-align: left;
+    }
+    
+    .around-title{
+padding-bottom: 15px;
+        padding-right: 130px;
+    }
+    
+    .aroundtext{
+        margin-left: -65px;
+        margin-right: 30px;
+        padding-top: 40px;
+    }
+    
+    .aroundimg{
+        
+        margin-top: -220px;
+        margin-left: -120px;
+    }
+    
+    .whatsaroundbg{
+        margin-bottom: -15px;
+    }
+    
+    .history{
+        padding-right: 20px;
+    }
+    
+    .learnmore-two{
+        padding-left: 50px;
+    }
+    
+    .fbimg{
+        height: 30px;
+        width: auto;
+    }
+    
+     .igimg{
+        height: 30px;
+        width: auto;
+    }
+    
+     .twimg{
+        height: 30px;
+        width: auto;
+    }
+    
+    .footerone{
+        padding-top:40px;
+    }
+    
+    .footertwo{
+        font-size: .5em;
+        padding-bottom: 50px;
+        margin-top: -60px;
+    }
+    
+    
+    
+    
+    
+    
+    
+/*    !!!TICKETS!!!*/
+    
+    .ticket-title{
+        padding-bottom: 15px;
+    }
+    
+    .band-img{
+        padding-left: 0px;
+        margin-left: -55px;
+    }
+    
+    
+    .band-summary{
+        padding-top: 300px;
+        padding-right: 30px;
+        margin-left: 0px;
+        font-size: 1.1em;
+        text-align: left;
+        
+    }
+    
+    .kinggiz-title{
+        padding-top: 130px;
+    }
+    
+    .tickets-text{
+        padding-top: 0px;
+        padding-bottom: 200px;
+        margin-top: -500px;
+    }
+    
+    .ocean-sect{
+        padding-left: 50px;
+    }
+    
+    .ocean-ind-img{
+        margin-left: 0px;
+    }
+    
+    
+    /*    !!!ABOUT!!!*/
+    
+    .about-title{
+       margin-top: -20px;
+    }
+    
+    .foundation{
+         margin: 0px;
+        padding: 0px;  
+    }
+    
+     .foundation-section{
+         margin: 0px;
+        padding: 0px;  
+    }
+    
+    .foundation-img{
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    
+    .foundation-title{
+        padding-left: 25px;
+    }
+    
+      .foundation-text{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .foundation-text-two{
+       padding-right: 15px;
+        padding-bottom: 50px;
+        margin-right: 0px;
+    
+        margin-top: 0px;
+    }
+    
+    .vision{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .vision-title{
+        padding-left: 0px;
+        padding-bottom: 350px;
+        margin-left:45px;
+        padding-top: 15px;
+        margin-top: -600px;
+    }
+    
+    .vision-text-sect{
+        margin-left: -30px;
+        margin-right:50px;
+        margin-top: 0px;
+        padding-bottom: 50px;
+        padding-top: 660px;
+    }
+    
+    .vision-img-sm{
+        margin-top: -730px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 400px;
+        
+    }
+    
+    .venue-info{
+        margin-right: 15px;
+        padding-bottom: 500px;
+        margin-top: -700px;
+        padding-top: 0px;
+    }
+    
+    .venue-map{
+        margin-right: 0px;
+        margin-left: 20px;
+        padding-left: 0px;
+        margin-top:250px;
+    }
+    
+}
+
+
+@media screen and (max-width: 320px){
+    
+      .ocean-ind-img{
+        width: 260px;
+        height: auto;
+        margin-left: -255px;
+    }
 }
